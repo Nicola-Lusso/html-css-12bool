@@ -1,0 +1,75 @@
+.row::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.row{
+  height: 100px;
+}
+
+.row [class*="col-"]{
+  float: left;
+  height: 100%;
+  border: 1px solid black;
+
+}
+
+.col-1{
+  width: calc(100% / 15 * 1)
+}
+
+.col-2{
+  width: calc(100% / 15 * 2)
+}
+
+.col-3{
+  width: calc(100% / 15 * 3)
+}
+
+.col-4{
+  width: calc(100% / 15 * 4)
+}
+
+.col-5{
+  width: calc(100% / 15 * 5)
+}
+
+.col-6{
+  width: calc(100% / 15 * 6)
+}
+
+.col-7{
+  width: calc(100% / 15 * 7)
+}
+
+.col-8{
+  width: calc(100% / 15 * 8)
+}
+
+.col-9{
+  width: calc(100% / 15 * 9)
+}
+
+.col-10{
+  width: calc(100% / 15 * 10)
+}
+
+.col-11{
+  width: calc(100% / 15 * 11)
+}
+
+.col-12{
+  width: calc(100% / 15 * 12)
+}
+
+.col-13{
+  width: calc(100% / 15 * 13)
+}
+
+.col-14{
+  width: calc(100% / 15 * 14)
+}
+
+.col-15{
+  width: calc(100% / 15 * 15)
+}
